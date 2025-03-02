@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>BarberShopUrban/Citas (Popayán)</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="barber_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <div class="mus">
+			<img src="images/lode-img.png" alt="" />
+		  </div>
+		  <span class="loading" data-name="Loading">Cargando</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="imagenesAhora/Logo.jpg" alt="" />
+				</a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+
+	<!-- Page Content -->
+	<div id="page-content-wrapper">
+		<div class="all-page-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="title title-1 text-center">
+							<div class="much">
+								<img src="imagenesAhora/logotipo.jpg" alt=""/>
+							</div>
+							
+							<div class="title--heading">
+								<h1>AGENDAR CITA</h1>
+							</div>
+							<div class="clearfix"></div>
+							
+							<ol class="breadcrumb">
+								<li><a href="index-3.html">INICIO</a></li>
+								<li class="active">AGENDAR CITA
+
+								</li>
+							</ol>
+						</div>
+						<!-- .title end -->
+					</div>
+				</div>
+			</div>
+		</div><!-- end all-page-bar -->
+
+		<div id="appointment" class="section wb">
+			<div class="container">
+				<div class="section-title row text-center">
+					<div class="col-md-8 offset-md-2">
+						<small>Registra tu cita !BARBER URBAN¡</small>
+						<h3>Digita tus datos</h3>
+					</div>
+				</div><!-- end title -->
+
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="contact_form">
+							<div id="message"></div>
+							<form id="contactform" class="" action="contact.php" name="contactform" method="post">
+								<fieldset class="row row-fluid">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<input type="text" name="first_name" id="first_name" class="form-control" placeholder="NOMBRE">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<input type="text" name="last_name" id="last_name" class="form-control" placeholder="APELLIDO">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<input type="email" name="email" id="email" class="form-control" placeholder="CORREO ELECTRONICO">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<input type="text" name="phone" id="phone" class="form-control" placeholder="NUMERO CELULAR">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<input type="text" name="Barbero" id="name_barber" class="form-control" placeholder="BARBERO">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<input type="date" name="appointment_date" id="appointment_date" class="form-control" placeholder="Select Appointment Date">
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<textarea class="form-control" name="comments" id="comments" rows="6" placeholder="ALGUNA SUGERENCIA"></textarea>
+									</div>
+									<div class="form-btn text-center">
+										<button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block subt">AGENDAR CITA</button>
+									</div>
+									
+								</fieldset>
+							</form>
+						</div>
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div><!-- end section -->
+
+		<div id="testimonials" class="parallax section db parallax-inner-bg">
+			<div class="container">
+				<div class="section-title row text-center">
+					<div class="col-md-8 offset-md-2">
+						<small>NUESTROS TESTIMONIOS</small>
+						<h3>CLIENTES</h3>
+					</div>
+				</div><!-- end title -->
+
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="testi-carousel owl-carousel owl-theme">                                
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="imagenesAhora/Cli_CR7.jpg" alt="" class="img-responsive alignright">
+									<h4>Cristiano Ronaldo <small>- Futbolista Profesional</small></h4>
+								</div>
+								<div class="desc">
+									<h3>Maravilloso Lugar!</h3>
+									<p class="lead">"¡Hola, familia! 💥⚽ Hoy quiero contarles sobre un lugar que se ha convertido en parte de mi rutina. Cada vez que tengo que ponerme al 100% antes de un partido, sé que tengo que ir a URBAN. 🙌🏽✨
+													 Ya saben que para mí es importante sentirme bien dentro y fuera del campo,
+									    			 y un buen corte de cabello es parte de eso. 💇🏽‍♂️ Desde que llego, el trato es increíble y siempre me hacen sentir como en casa. Los chicos ahí saben lo que hacen, y siempre me dejan listo para salir con confianza. 👊🏽🔝
+													 Si buscas un corte que te haga sentir bien contigo mismo, ¡te recomiendo que vayas! De verdad, si eres como yo y te gusta cuidar tu estilo, no dudes en pasar por Barber Shop URBAN. 💯
+							                        ¡Gracias a Sebastian Fernandez (Cali_Barber) por siempre hacer magia con mi cabello! 💈🙌🏽
+													¡Nos vemos en la cancha! Y recuerden, ¡siéntanse siempre bien con lo que llevan puesto, incluido su corte! 👕⚽✂️" !!!SIIUUUUUUUUUU¡¡¡</p>
+								</div>
+								<!-- end testi-meta -->
+							</div>
+							<!-- end testimonial -->
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="imagenesAhora/Cli_2.jpg" alt="" class="img-responsive alignright">
+									<h4>Farruko <small>- Cantante</small></h4>
+								</div>
+								<div class="desc">
+									<h3>Lo Mejorrrrrrrrr!</h3>
+									<p class="lead">"¡Que tal mi gente! 🎶💥 Les tengo que contar algo, porque ya saben que siempre busco lo mejor para estar al 100 en todo lo que hago. 🙌🏽✨
+													 Si buscan un corte de cabello que te deje listo para todo, no pueden dejar de ir a Barber Shop URBAN. 💈🔥 Yo siempre paso por ahí antes de cualquier show, ¡y déjenme decirles que siempre me hacen lucir bien Cabrom! 🙌🏽💇🏽‍♂️
+													 El trato es brutal, la vibra de los barberos es lo más, y lo mejor de todo es que siempre me siento como en casa. 🤙🏽🎤 Si te quieres sentir bien y lucir bien, no lo dudes URBAN es el lugar. ✂️
+													 Gracias a Andres Vidal (patojo_) por siempre tenerme al nivel, bro. ¡Ya saben, siempre a romperla con el flow! 💯👑
+													 Si estás buscando ese toque perfecto para tu look, pasa por URBAN y siente la verdadera salsa. Nos vemos en la próxima, mi gente. ¡FUEGOOO! 💥🔥"</p>
+								</div>
+								<!-- end testi-meta -->
+							</div>
+							<!-- end testimonial -->
+							<div class="testimonial clearfix">
+								<div class="testi-meta">
+									<i class="fa fa-quote-right"></i>
+									<img src="imagenesAhora/Cli_3.jpg" alt="" class="img-responsive alignright">
+									<h4> Arcangel <small>- Canatante-Compositor</small></h4>
+								</div>
+								<div class="desc">
+									<h3> Los mássssss Durosssss!</h3>
+									<p class="lead">¡Mis Reales, qué es lo que hay! 🇵🇷🔥 Les tengo que hablar de un lugar que siempre me deja listo pa’ romperla con el flow en Colombia Barber URBAN. 💈🙌🏽
+													Siempre que tengo que darlo todo en el escenario o en la calle, paso por ahí pa’ que me dejen al 100. Y de verdad, no hay nada como sentirte bien con tu estilo. 💇🏽‍♂️🔥
+										            Los barberos en URBANNNN son unos duros los dueños de esto. Cada vez que llego, me tratan con respeto y siempre me dejan con ese corte que me hace sentir brutal. 💯 Si buscas un buen asicale, que te lo dejen fresh, ¡tienes que ir!
+													Gracias a Sebastian Fernandez (Cali_Barber) por siempre tenerme al 100 y hacer que mi estilo nunca se quede atrás. 💥
+										            Si estás buscando calidad y un lugar con buena vibra, no dudes, ve a [nombre de la barbería] y verás la diferencia. ¡Nos vemos en el camino, mi gente! 🔥🎤 ¡Y que no se te olvide, siempre dale con todo! 👑" </p>
+								</div>
+								<!-- end testi-meta -->
+							
+							</div>
+							<!-- end testimonial -->
+						</div><!-- end carousel -->
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div><!-- end section -->
+
+		<div class="copyrights">
+			<div class="container">
+				<div class="footer-distributed">
+					<div class="footer-left">
+						<p class="footer-company-name"> &copy; 2025 <a href="#">BarberShopUrban</a> </p>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</div><!-- end copyrights -->
+	</div>
+    
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>
